@@ -134,7 +134,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .aboutme_component{
         margin-left: 1rem;
         margin-right: 1rem;
