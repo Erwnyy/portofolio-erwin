@@ -38,8 +38,8 @@ body {
     border-radius: .5rem;
     display: block;
     cursor: pointer;
-    margin-top: 75vh;
     font-size: 1.2rem;
+    z-index: 999;
   }
 
   .button-explore:hover {

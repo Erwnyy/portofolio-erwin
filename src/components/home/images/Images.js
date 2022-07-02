@@ -31,7 +31,7 @@ const HTMLContent = () => {
     //Untuk memutar gambar 
   const useref = useRef()
   // useFrame(() => (useref.current.rotation.y += 0.10))
-  useFrame(() => (useref.current.rotation.y += 0.01))
+  useFrame(() => (useref.current.rotation.y += 0.005))
 
   return(
     <Section factor={1.5} offset={1}>
@@ -69,7 +69,7 @@ const Images = () => {
       <Canvas
           colorManagement
           camera={{position:[50,20,120],fav:70}}
-          style={{height:'100vh'}}
+          style={{height:'90vh'}}
         >
           
           <Lights/>
