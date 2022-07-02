@@ -1,0 +1,122 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #F2EEE6;
+    transition: 0.4s ease-in-out;
+    overflow-x: hidden;
+    /* a3eba3 */
+  }
+
+  .images_container{
+    position: absolute;
+  }
+
+  .title_images{
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 3.5rem;
+    text-align: center;
+    position: absolute;
+    
+  }
+
+  .containerImages_title {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-explore {
+    text-decoration: none;
+    background-color: none;
+    padding: 17px 30px;
+    position: absolute;
+    text-align: center;
+    z-index: 999;
+    color: rgb(254, 135, 0);
+    border-radius: .5rem;
+    display: block;
+    cursor: pointer;
+    margin-top: 75vh;
+    font-size: 1.2rem;
+  }
+
+  .button-explore:hover {
+    text-decoration: overline;
+  }
+
+  
+.buttons_container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+    font-size: 12rem;
+    cursor: none;
+    text-align: center;
+    width: 100%;
+    color: rgb(6, 6, 6);
+
+}
+
+
+@media (min-width: 360px) {
+    .title {
+        font-size: 5.5rem;
+      }
+    
+}
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 5rem;
+  }
+
+  .button-explore {
+    margin-top: 72vh;
+    padding: 14px 30px;
+    cursor: pointer;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 6rem;
+  }
+
+  .button-explore {
+    margin-top: 79vh;
+    padding: 16px 30px;
+    cursor: pointer;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .title {
+    font-size: 7rem;
+  }
+
+  .button-explore {
+    margin-top: 79vh;
+    padding: 16px 30px;
+    cursor: pointer;
+  }
+
+}
+
+
+
+
+
+/* 
+.buttons_container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-10%);
+  transform: translateY(-50%);
+} */ 

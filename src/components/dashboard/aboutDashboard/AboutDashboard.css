@@ -1,0 +1,139 @@
+.home-container {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 40px;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .home-container .logo {
+    position: inherit;
+    margin-top: -50px;
+    height: 520px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    user-select: none;
+  }
+  
+  .home-container .logo .circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease;
+    opacity: 0;
+  }
+
+  .herosection-desc {
+    font-size: .7rem;
+    position: relative;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 20rem;
+  }
+  
+  .home-container .herosection_img {
+    position: absolute;
+    height: 70%;
+    width: 250px;
+    top: 20px;
+    transform: translate(100px);
+    opacity: 0;
+    animation: fade-in 2s ease 1 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    to {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+
+  .backdrop_herosection{
+    height: 400px;
+    width: 420px;
+    position: absolute;
+    filter: drop-shadow(0 20px 11px);
+    transform: translate(20px);
+    opacity: 0;
+    animation: fade-in 2s ease 1 2s forwards;
+    top: -50px;
+  }
+  
+  @keyframes fade-in {
+    to {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+
+  .button_other{
+    background-color: #FF8E3C;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: .5rem;
+    padding: 17px 40px;
+    margin-bottom: 50vh;
+  }
+
+  .herosection_disc{
+    margin-bottom: 70px;
+  }
+
+
+  /* RESPONSIVE */
+
+
+  @media (max-width: 800px) {
+    .backdrop_herosection{
+      height: 280px;
+      top: 30px;
+      width: 370px;
+    }
+
+    .herosection-desc {
+      font-size: .6rem;
+      position: relative;
+      text-align: center;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    .home-container .herosection_img {
+      position: absolute;
+      height: 60%;
+      width: 200px;
+      top: 0px;
+    }
+  }
+
+  
+
+
+   @media screen and (min-width: 1100px) {
+    
+    .herosection-desc {
+      font-size: .9rem;
+      position: relative;
+      text-align: center;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+ }
+
+  /* kode warna hijau tosca 10c2be */
+  
+  

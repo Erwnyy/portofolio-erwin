@@ -1,0 +1,84 @@
+.header-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -20px;
+  transform: translateY(-20px);
+  opacity: 0;
+  z-index: 99;
+  backdrop-filter: blur(50px);
+  animation: fade-in 2s ease 1.5s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header-container h3 {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 1000;
+  letter-spacing: 2px;
+
+}
+
+.header_desc {
+  font-weight: 300;
+  margin-top: -40px;
+  font-size: 30px;
+}
+
+.Hi {
+  margin-top: 20px;
+}
+
+.header_name{
+  font-size: 20px;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.header-container h3 p {
+  font-size: 20px;
+  margin-bottom: -36px;
+  font-family: 'Bungee Inline', cursive;
+
+}
+
+.header-container h3 p span {
+  color: var(--color-pri);
+  font-size: 20px;
+}
+
+.header-container h2 {
+  font-size: 20px;
+  font-weight: 1000;
+  color: rgba(4, 129, 197, 0.857);
+  font-family: 'Bungee Inline', cursive;
+  letter-spacing: 1px;
+  top: 300px;
+}
+
+
+@media (max-width: 350px) {
+  .header-container h2 {
+    font-size: 12px;
+    font-weight: 800;
+    top: 300px;
+  }
+
+  .header-container h3 {
+    font-size: 19px;
+    font-weight: 1000;
+    position: relative;
+    margin-top: 30px;
+
+  }
+
+}

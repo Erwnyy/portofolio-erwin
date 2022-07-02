@@ -1,0 +1,179 @@
+.container_dataaboutme {
+    background-color: rgb(188, 184, 184);
+    height: auto;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-radius: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 3px solid black;
+}
+
+.reacticon_kontak {
+    font-size: 1.3rem;
+}
+
+.about_kontak {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.about_kontak:hover {
+    text-decoration: overline;
+}
+
+.data_kontaksaya {
+    margin-top: -40px;
+}
+
+.warna {
+    background: rgb(255, 145, 0);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px 9px 0 0 ;
+    width: 99%;
+    height: 30px;
+    border: 3px solid black;
+}
+
+.tombol_merah{
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    margin: 7px;
+    padding: 20px 10px 0px;
+}
+
+.tombol_kuning{
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    margin: 7px 36px;
+    padding: 20px 10px 0px;
+}
+
+.tombol_hijau{
+    background-color: green;
+    border-radius: 50%;
+    position: absolute;
+    margin: 7px 70px;
+    padding: 20px 10px 0px;
+}
+
+.title_aboutme {
+    text-align: center;
+    font-family: 'Bungee Shade', cursive;
+}
+
+.aboutme_component{
+    font-family: 'Artifika', serif;
+    text-align: justify;
+
+}
+
+.career_aboutme {
+    text-align: left;
+    padding: 40px ;
+    margin-left: -10px;
+}
+
+.data_about {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -3rem;
+    font-family: 'Artifika', serif;
+    font-weight: -100;
+}
+
+@media (min-width: 800px) {
+    .aboutme_component{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    
+    }
+
+    .container_dataaboutme {
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .aboutme_component{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1rem;
+    
+    }
+
+    .reacticon_kontak {
+        font-size: .9rem;
+    }
+
+    .warna {
+        width: 100%;
+    }
+
+    .container_dataaboutme {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .title_aboutme {
+        font-size: 1.9rem;
+    }
+
+    .career_aboutme {
+        font-size: .9rem;
+    }
+
+    .data_about {
+        font-size: .8rem;
+        margin-left: .1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutme_component{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: .8rem;
+    
+    }
+
+    .reacticon_kontak {
+        font-size: .9rem;
+    }
+
+    .container_dataaboutme {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .title_aboutme {
+        font-size: 1.4rem;
+    }
+
+    .career_aboutme {
+        font-size: .8rem;
+    }
+
+    .data_about {
+        font-size: .7rem;
+        margin-left: .1rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .aboutme_component{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1rem;
+    
+    }
+
+    .warna {
+        width: 100%;
+    }
+}
+
