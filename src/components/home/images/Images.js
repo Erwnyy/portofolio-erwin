@@ -69,7 +69,7 @@ const Images = () => {
       <Canvas
           colorManagement
           camera={{position:[50,20,120],fav:70}}
-          style={{height:'80vh'}}
+          style={{height:'85vh'}}
         >
           
           <Lights/>

@@ -86,17 +86,15 @@
         grid-template-columns: repeat(auto-fit, minmax(245px));
         position: relative;
         justify-content: center;
-        margin-left: 2rem;
-        margin-right: 2rem;
     }
 }
 
 @media (max-width: 820px) {
     .featured_container {
-        grid-template-columns: repeat(auto-fit, minmax(375px));
+        grid-template-columns: repeat(auto-fit, minmax(390px));
         position: relative;
-        margin-left: 3rem;
-        margin-right: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         justify-content: center;
     }
     
