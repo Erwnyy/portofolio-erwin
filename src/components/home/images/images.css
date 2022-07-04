@@ -38,7 +38,7 @@ body {
     border-radius: .5rem;
     display: block;
     cursor: pointer;
-    margin-top: 75vh;
+    margin-top: 85vh;
     font-size: 1.2rem;
   }
 
@@ -50,6 +50,11 @@ body {
 .buttons_container {
   display: flex;
   justify-content: center;
+}
+
+.three_img {
+  width: 100vh;
+
 }
 
 .title {

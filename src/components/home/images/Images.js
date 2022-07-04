@@ -69,7 +69,8 @@ const Images = () => {
       <Canvas
           colorManagement
           camera={{position:[50,20,120],fav:70}}
-          style={{height:'85vh'}}
+          style={{height:'85vh', position:"absolute", alignItems:"center", marginTop:"3vh", zIndex:'2'}}
+          className="three_img"
         >
           
           <Lights/>
